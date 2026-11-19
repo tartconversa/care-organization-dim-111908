@@ -1,0 +1,157 @@
+{
+  "synthetic": true,
+  "files": [
+    {
+      "path": "data/organizations.json",
+      "format": "json",
+      "sha256": "743c72e5639e26339e784beab3acdb11c071d4cb347903b0c409d245ac738834",
+      "rows": 7,
+      "fields": [
+        "org_id",
+        "name",
+        "revision"
+      ],
+      "references": []
+    },
+    {
+      "path": "data/sites.json",
+      "format": "json",
+      "sha256": "4283340ba0df42705cdda4876c0653fb9d5439f1f285d0e1224eec1078b8b7c8",
+      "rows": 8,
+      "fields": [
+        "site_id",
+        "village"
+      ],
+      "references": []
+    },
+    {
+      "path": "data/hierarchies.json",
+      "format": "json",
+      "sha256": "4d727d8035c08a94bc20ad974dd829edddd3c2f815ab3d5842e4f62bcb0ced18",
+      "rows": 18,
+      "fields": [
+        "edge_id",
+        "perspective",
+        "child",
+        "parent",
+        "from_date",
+        "until_date"
+      ],
+      "references": [
+        {
+          "field": "child",
+          "target": "data/organizations.json",
+          "target_field": "org_id"
+        },
+        {
+          "field": "parent",
+          "target": "data/organizations.json",
+          "target_field": "org_id"
+        }
+      ]
+    },
+    {
+      "path": "data/assignments.json",
+      "format": "json",
+      "sha256": "30b6b359bd677e62e23a45b206cd9c5b286794d9aa52472344a30956d5b219ae",
+      "rows": 9,
+      "fields": [
+        "assignment_id",
+        "site_id",
+        "service",
+        "perspective",
+        "org_id",
+        "share",
+        "from_date",
+        "until_date"
+      ],
+      "references": [
+        {
+          "field": "site_id",
+          "target": "data/sites.json",
+          "target_field": "site_id"
+        },
+        {
+          "field": "org_id",
+          "target": "data/organizations.json",
+          "target_field": "org_id"
+        }
+      ]
+    },
+    {
+      "path": "data/successions.json",
+      "format": "json",
+      "sha256": "9b0c20322e1e5274e9043837b0e0d1d6000ad37086a6209030c97d216a1592cb",
+      "rows": 2,
+      "fields": [
+        "notice_id",
+        "from_org",
+        "to_org",
+        "sites",
+        "services",
+        "share",
+        "effective_date",
+        "received_at"
+      ],
+      "references": [
+        {
+          "field": "from_org",
+          "target": "data/organizations.json",
+          "target_field": "org_id"
+        },
+        {
+          "field": "to_org",
+          "target": "data/organizations.json",
+          "target_field": "org_id"
+        },
+        {
+          "field": "sites",
+          "target": "data/sites.json",
+          "target_field": "site_id"
+        }
+      ]
+    },
+    {
+      "path": "data/handovers.json",
+      "format": "json",
+      "sha256": "c42cfd3f3aa7e3989a71e267dff9d35d9b2faf9ea6348174068df2c3b2e46c90",
+      "rows": 1,
+      "fields": [
+        "handover_id",
+        "notice_id",
+        "site_id",
+        "service",
+        "from_date",
+        "until_date"
+      ],
+      "references": [
+        {
+          "field": "notice_id",
+          "target": "data/successions.json",
+          "target_field": "notice_id"
+        },
+        {
+          "field": "site_id",
+          "target": "data/sites.json",
+          "target_field": "site_id"
+        }
+      ]
+    },
+    {
+      "path": "data/services.csv",
+      "format": "csv",
+      "sha256": "f44e5fbb4864ede868261e5fb02720e45fd882c26d6bfa4ad2a4b203fc45fe4f",
+      "rows": 24,
+      "fields": [
+        "service_id",
+        "person_id",
+        "site_id",
+        "service",
+        "occurred_on",
+        "source_org",
+        "amount_fen"
+      ],
+      "references": []
+    }
+  ]
+}

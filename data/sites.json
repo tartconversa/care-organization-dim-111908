@@ -1,0 +1,34 @@
+[
+  {
+    "site_id": "S1",
+    "village": "V1"
+  },
+  {
+    "site_id": "S2",
+    "village": "V1"
+  },
+  {
+    "site_id": "S3",
+    "village": "V2"
+  },
+  {
+    "site_id": "S4",
+    "village": "V2"
+  },
+  {
+    "site_id": "S5",
+    "village": "V3"
+  },
+  {
+    "site_id": "S6",
+    "village": "V3"
+  },
+  {
+    "site_id": "S7",
+    "village": "V4"
+  },
+  {
+    "site_id": "S8",
+    "village": "V4"
+  }
+]

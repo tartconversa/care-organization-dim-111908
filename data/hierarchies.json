@@ -1,0 +1,146 @@
+[
+  {
+    "edge_id": "legal-2",
+    "perspective": "legal",
+    "child": "O2",
+    "parent": "O1",
+    "from_date": "2026-01-01",
+    "until_date": null
+  },
+  {
+    "edge_id": "legal-3",
+    "perspective": "legal",
+    "child": "O3",
+    "parent": "O1",
+    "from_date": "2026-01-01",
+    "until_date": null
+  },
+  {
+    "edge_id": "legal-4",
+    "perspective": "legal",
+    "child": "O4",
+    "parent": "O1",
+    "from_date": "2026-01-01",
+    "until_date": null
+  },
+  {
+    "edge_id": "legal-5",
+    "perspective": "legal",
+    "child": "O5",
+    "parent": "O1",
+    "from_date": "2026-01-01",
+    "until_date": null
+  },
+  {
+    "edge_id": "legal-6",
+    "perspective": "legal",
+    "child": "O6",
+    "parent": "O1",
+    "from_date": "2026-01-01",
+    "until_date": null
+  },
+  {
+    "edge_id": "legal-7",
+    "perspective": "legal",
+    "child": "O7",
+    "parent": "O1",
+    "from_date": "2026-01-01",
+    "until_date": null
+  },
+  {
+    "edge_id": "responsibility-2",
+    "perspective": "responsibility",
+    "child": "O2",
+    "parent": "O1",
+    "from_date": "2026-01-01",
+    "until_date": null
+  },
+  {
+    "edge_id": "responsibility-3",
+    "perspective": "responsibility",
+    "child": "O3",
+    "parent": "O1",
+    "from_date": "2026-01-01",
+    "until_date": null
+  },
+  {
+    "edge_id": "responsibility-4",
+    "perspective": "responsibility",
+    "child": "O4",
+    "parent": "O1",
+    "from_date": "2026-01-01",
+    "until_date": null
+  },
+  {
+    "edge_id": "responsibility-5",
+    "perspective": "responsibility",
+    "child": "O5",
+    "parent": "O1",
+    "from_date": "2026-01-01",
+    "until_date": null
+  },
+  {
+    "edge_id": "responsibility-6",
+    "perspective": "responsibility",
+    "child": "O6",
+    "parent": "O1",
+    "from_date": "2026-01-01",
+    "until_date": null
+  },
+  {
+    "edge_id": "responsibility-7",
+    "perspective": "responsibility",
+    "child": "O7",
+    "parent": "O1",
+    "from_date": "2026-01-01",
+    "until_date": null
+  },
+  {
+    "edge_id": "finance-2",
+    "perspective": "finance",
+    "child": "O2",
+    "parent": "O1",
+    "from_date": "2026-01-01",
+    "until_date": null
+  },
+  {
+    "edge_id": "finance-3",
+    "perspective": "finance",
+    "child": "O3",
+    "parent": "O1",
+    "from_date": "2026-01-01",
+    "until_date": null
+  },
+  {
+    "edge_id": "finance-4",
+    "perspective": "finance",
+    "child": "O4",
+    "parent": "O1",
+    "from_date": "2026-01-01",
+    "until_date": null
+  },
+  {
+    "edge_id": "finance-5",
+    "perspective": "finance",
+    "child": "O5",
+    "parent": "O1",
+    "from_date": "2026-01-01",
+    "until_date": null
+  },
+  {
+    "edge_id": "finance-6",
+    "perspective": "finance",
+    "child": "O6",
+    "parent": "O1",
+    "from_date": "2026-01-01",
+    "until_date": null
+  },
+  {
+    "edge_id": "finance-7",
+    "perspective": "finance",
+    "child": "O7",
+    "parent": "O1",
+    "from_date": "2026-01-01",
+    "until_date": null
+  }
+]

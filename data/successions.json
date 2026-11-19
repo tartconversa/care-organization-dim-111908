@@ -1,0 +1,32 @@
+[
+  {
+    "notice_id": "N1",
+    "from_org": "O2",
+    "to_org": "O4",
+    "sites": [
+      "S1",
+      "S2"
+    ],
+    "services": [
+      "meal"
+    ],
+    "share": "0.6",
+    "effective_date": "2026-11-01",
+    "received_at": "2026-11-02T08:00:00+08:00"
+  },
+  {
+    "notice_id": "N2",
+    "from_org": "O2",
+    "to_org": "O5",
+    "sites": [
+      "S1",
+      "S2"
+    ],
+    "services": [
+      "meal"
+    ],
+    "share": "0.4",
+    "effective_date": "2026-11-01",
+    "received_at": "2026-11-02T08:01:00+08:00"
+  }
+]

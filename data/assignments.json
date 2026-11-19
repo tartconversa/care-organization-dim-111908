@@ -1,0 +1,92 @@
+[
+  {
+    "assignment_id": "A1",
+    "site_id": "S1",
+    "service": "meal",
+    "perspective": "responsibility",
+    "org_id": "O2",
+    "share": "1",
+    "from_date": "2026-01-01",
+    "until_date": "2026-11-01"
+  },
+  {
+    "assignment_id": "A2",
+    "site_id": "S2",
+    "service": "meal",
+    "perspective": "responsibility",
+    "org_id": "O2",
+    "share": "1",
+    "from_date": "2026-01-01",
+    "until_date": "2026-11-01"
+  },
+  {
+    "assignment_id": "A3",
+    "site_id": "S3",
+    "service": "meal",
+    "perspective": "responsibility",
+    "org_id": "O2",
+    "share": "1",
+    "from_date": "2026-01-01",
+    "until_date": "2026-11-01"
+  },
+  {
+    "assignment_id": "A4",
+    "site_id": "S4",
+    "service": "meal",
+    "perspective": "responsibility",
+    "org_id": "O2",
+    "share": "1",
+    "from_date": "2026-01-01",
+    "until_date": "2026-11-01"
+  },
+  {
+    "assignment_id": "A5",
+    "site_id": "S5",
+    "service": "meal",
+    "perspective": "responsibility",
+    "org_id": "O2",
+    "share": "1",
+    "from_date": "2026-01-01",
+    "until_date": "2026-11-01"
+  },
+  {
+    "assignment_id": "A6",
+    "site_id": "S6",
+    "service": "meal",
+    "perspective": "responsibility",
+    "org_id": "O2",
+    "share": "1",
+    "from_date": "2026-01-01",
+    "until_date": "2026-11-01"
+  },
+  {
+    "assignment_id": "A7",
+    "site_id": "S7",
+    "service": "meal",
+    "perspective": "responsibility",
+    "org_id": "O2",
+    "share": "1",
+    "from_date": "2026-01-01",
+    "until_date": "2026-11-01"
+  },
+  {
+    "assignment_id": "A8",
+    "site_id": "S8",
+    "service": "meal",
+    "perspective": "responsibility",
+    "org_id": "O2",
+    "share": "1",
+    "from_date": "2026-01-01",
+    "until_date": "2026-11-01"
+  },
+  {
+    "assignment_id": "AF1",
+    "site_id": "S1",
+    "service": "meal",
+    "perspective": "finance",
+    "org_id": "O3",
+    "share": "1",
+    "from_date": "2026-01-01",
+    "until_date": null
+  }
+]

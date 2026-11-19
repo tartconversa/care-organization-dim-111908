@@ -1,0 +1,10 @@
+[
+  {
+    "handover_id": "H1",
+    "notice_id": "N1",
+    "site_id": "S1",
+    "service": "meal",
+    "from_date": "2026-11-01",
+    "until_date": null
+  }
+]
