@@ -16,7 +16,9 @@ def check(root):
     for e in catalog['files']:
         path=(root/e['path']).resolve()
         assert path.is_relative_to(root),'来源路径越界'
-        assert hashlib.sha256(path.read_bytes()).hexdigest()==e['sha256'],'来源指纹不符'
+        raw=path.read_bytes()
+        normalized=raw.replace(b'\r\n',b'\n').replace(b'\r',b'\n')
+        assert hashlib.sha256(normalized).hexdigest()==e['sha256'],'来源指纹不符'
         rows=load_rows(path,e['format'])
         assert isinstance(rows,list) and len(rows)==e['rows'],'来源条数不符'
         for r in rows:assert isinstance(r,dict) and set(r)==set(e['fields']),'字段不符'

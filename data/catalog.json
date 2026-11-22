@@ -4,7 +4,7 @@
     {
       "path": "data/organizations.json",
       "format": "json",
-      "sha256": "743c72e5639e26339e784beab3acdb11c071d4cb347903b0c409d245ac738834",
+      "sha256": "a7fdaf144582bbcae918eacadf4b99434efc7d878d1e7899cde9a6a0be095f72",
       "rows": 7,
       "fields": [
         "org_id",
@@ -16,7 +16,7 @@
     {
       "path": "data/sites.json",
       "format": "json",
-      "sha256": "4283340ba0df42705cdda4876c0653fb9d5439f1f285d0e1224eec1078b8b7c8",
+      "sha256": "a11eca22f1760859b9cb82935e6ab204fb3e599830cbe6d8c244626053d01336",
       "rows": 8,
       "fields": [
         "site_id",
@@ -27,7 +27,7 @@
     {
       "path": "data/hierarchies.json",
       "format": "json",
-      "sha256": "4d727d8035c08a94bc20ad974dd829edddd3c2f815ab3d5842e4f62bcb0ced18",
+      "sha256": "a93215abccac027b4dd89263cb404febcc88eb53c0acc460f3cf58487e2957af",
       "rows": 18,
       "fields": [
         "edge_id",
@@ -53,7 +53,7 @@
     {
       "path": "data/assignments.json",
       "format": "json",
-      "sha256": "30b6b359bd677e62e23a45b206cd9c5b286794d9aa52472344a30956d5b219ae",
+      "sha256": "630752d2621731b0569498d37ce3c33f2124e059d0fbd83b34c283cc4f5f6145",
       "rows": 9,
       "fields": [
         "assignment_id",
@@ -81,7 +81,7 @@
     {
       "path": "data/successions.json",
       "format": "json",
-      "sha256": "9b0c20322e1e5274e9043837b0e0d1d6000ad37086a6209030c97d216a1592cb",
+      "sha256": "ca8750b91f791b3e6df5fae3885fa50e7be316ba200a34abb9dbde2a70e4a57b",
       "rows": 2,
       "fields": [
         "notice_id",
@@ -114,7 +114,7 @@
     {
       "path": "data/handovers.json",
       "format": "json",
-      "sha256": "c42cfd3f3aa7e3989a71e267dff9d35d9b2faf9ea6348174068df2c3b2e46c90",
+      "sha256": "bc017ca63c4ea1cda3dddca4bc4cddc5da300c09d742eabeb20ddf61a81478d0",
       "rows": 1,
       "fields": [
         "handover_id",
@@ -140,7 +140,7 @@
     {
       "path": "data/services.csv",
       "format": "csv",
-      "sha256": "f44e5fbb4864ede868261e5fb02720e45fd882c26d6bfa4ad2a4b203fc45fe4f",
+      "sha256": "cce0c59de6a69a41a6339284ab1d7910ab431f6b178fe7f719634c07f716ef6f",
       "rows": 24,
       "fields": [
         "service_id",
